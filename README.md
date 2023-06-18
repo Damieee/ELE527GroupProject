@@ -2,9 +2,6 @@
 This code solves a `system of linear equations` using the `Gauss-Seidel method`. It takes as input a `coefficient matrix`, a `right-hand side vector`, `an initial guess for the solution vector`, and `the number of iteration steps to perform`.
 
 #########################################################################################
-#                                     FUNCTION                                          #
-#########################################################################################
-
 ## Function:
 gauss_seidel(A, b, x0, num_of_iteration)
 
@@ -22,7 +19,7 @@ Returns:
 
 #########################################################################################
 #                                   IMPORTED MODULES                                    #
-#########################################################################################
+
 
 ## Module:
 art
@@ -32,8 +29,6 @@ This module provides ASCII art text for the program logo.
 
 #########################################################################################
 #                                     USED METHOD                                       #
-#########################################################################################
-
 ## Method:
 copy()
 
@@ -42,7 +37,7 @@ This method is used to create a deep copy of the initial guess solution vector '
 
 #########################################################################################
 #                                      MAIN CODE                                        #
-#########################################################################################
+
 
 - Coefficient matrix:
   - A = [[1, 9, -2], [2, -1, 8], [6, 1, 1]]
@@ -68,7 +63,7 @@ This method is used to create a deep copy of the initial guess solution vector '
 
 #########################################################################################
 #                                  HOW TO RUN LOCALLY                                  #
-#########################################################################################
+
 
 1. Ensure that you have the required dependencies installed. You can install the necessary packages using pip:
 
