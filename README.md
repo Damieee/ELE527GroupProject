@@ -1,8 +1,8 @@
 
 This code solves a `system of linear equations` using the `Gauss-Seidel method`. It takes as input a `coefficient matrix`, a `right-hand side vector`, `an initial guess for the solution vector`, and `the number of iteration steps to perform`.
 
-#########################################################################################
 ## Function:
+
 gauss_seidel(A, b, x0, num_of_iteration)
 
 ## Description:
@@ -17,7 +17,6 @@ This function implements the Gauss-Seidel method for solving a system of linear 
 Returns:
 - The final solution vector (list)
 
-#########################################################################################
 #                                   IMPORTED MODULES                                    #
 
 
@@ -26,16 +25,12 @@ art
 
 Description:
 This module provides ASCII art text for the program logo.
-
-#########################################################################################
 #                                     USED METHOD                                       #
 ## Method:
 copy()
 
 Description:
 This method is used to create a deep copy of the initial guess solution vector 'x0'. It ensures that the original 'x0' remains unchanged during the iterations.
-
-#########################################################################################
 #                                      MAIN CODE                                        #
 
 
@@ -60,8 +55,6 @@ This method is used to create a deep copy of the initial guess solution vector '
 - Print the solution rounded to 6 significant digits:
   - for i, value in enumerate(solution):
       - print(f"x{i + 1} = {value:.6g}")
-
-#########################################################################################
 #                                  HOW TO RUN LOCALLY                                  #
 
 
@@ -73,5 +66,3 @@ This method is used to create a deep copy of the initial guess solution vector '
 
 
 The solution for the system of linear equations will be displayed in the console output.
-
-#########################################################################################
